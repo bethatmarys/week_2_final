@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Track choice</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+          <form id="option">
+            <h1>Which track is best for you?</h1>
+            <h2>Following are a few questions to help you decide which track is the best fit for you.</h2>
+              <div class="radio">
+                <h3>What type of company would you rather work for?</h3>
+                <p><input type="radio" name="answer1" value="lgcorp"></p>Large corporation
+                <p><input type="radio" name="answer1" value="smbus"></p>Small business
+                <p><input type="radio" name="answer1" value="stup"></p>Startup
+                <p><input type="radio" name="answer1" value="remo"></p>Remote
+                <p><input type="radio" name="answer1" value="dnm"></p>Does Not Matter
+              </div>
+              <div class="radio">
+                <h3>What type of projects do you like working on?</h3>
+                <p><input type="radio" name="answer2" value="bkend"></p>Back End
+                <p><input type="radio" name="answer2" value="ftend"></p>Front End
+                <p><input type="radio" name="answer2" value="apps"></p>Apps
+                <p><input type="radio" name="answer2" value="artistic"></p>Artistic
+                <p><input type="radio" name="answer2" value="dnm"></p>Does Not Matter
+              </div>
+              <div class="radio">
+                <h3>Do you have any previous experience with coding?</h3>
+                <p><input type="radio" name="answer3" value="yes1"></p>Yes, several years
+                <p><input type="radio" name="answer3" value="yes2"></p>Yes, just a little
+                <p><input type="radio" name="answer3" value="yes3"></p>Yes, but I am self taught
+                <p><input type="radio" name="answer3" value="no1"></p>No, but I'm a fast learner
+                <p><input type="radio" name="answer3" value="none"></p>None
+              </div>
+              <button type="submit" class="btn">Submit</button>
+            </form>
+            <form>
+              <h2>Based you your answers,<br>our suggestion would be looking into this language.</h2>
+              <div class="java" id="instruction">
+              <img src= "img1/java.jpg" style="width: 450px;height:375px">
+              </div>
+              <div class="ruby" id="instruction">
+              <img src= "img1/ruby.jpg" style="width: 450px;height:375px">
+              </div>
+              <div class="php" id="instruction">
+              <img src= "img1/php.jpg" style="width: 450px;height:375px">
+              </div>
+              <div class="c" id="instruction">
+              <img src= "img1/c.jpg" style="width: 450px;height:375px">
+              </div>
+              <div class="css" id="instruction">
+              <img src= "img1/css.jpg" style="width: 450px;height:375px" >
+              </div>
+            </form>
+        <footer class="suggestions">Do your research but don't be obsessed with your choice,<br>once you learn one language the others will follow.</footer>
+      </div>
+    </div>
+
+
+
+  </body>
+</html>
