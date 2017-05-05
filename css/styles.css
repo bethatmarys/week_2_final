@@ -1,14 +1,48 @@
 #instruction {
   display: none;
 }
+
 .suggestions{
   font-style:italic;size;
   font-size: 20pt;
   font-weight: bold;
-  text-indent:
+  text-align: center;
 }
 .my-class {
   margin: 7px;
+  border: 5px solid black;
+  padding: 4px;
+  background-color: white ;
+}
+.radio {
+  margin-left: 300px;
+}
+.java {
+  margin: 10px;
+  border: 5px solid black;
+  padding: 4px;
+  background-color: white ;
+}
+.ruby {
+  margin: 10px;
+  border: 5px solid black;
+  padding: 4px;
+  background-color: white ;
+}
+.php {
+  margin: 10px;
+  border: 5px solid black;
+  padding: 4px;
+  background-color: white ;
+}
+.c {
+  margin: 10px;
+  border: 5px solid black;
+  padding: 4px;
+  background-color: white ;
+}
+.css {
+  margin: 10px;
   border: 5px solid black;
   padding: 4px;
   background-color: white ;
